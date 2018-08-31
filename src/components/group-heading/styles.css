@@ -1,3 +1,7 @@
 .group-heading h4:first-letter {
   text-transform: uppercase;
 }
+
+.group-heading.night {
+  color: #fff;
+}

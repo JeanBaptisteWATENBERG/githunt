@@ -11,7 +11,7 @@ class GridItem extends React.Component {
   render() {
     return (
       <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 grid-item-container">
-        <div className="grid-item-body">
+        <div className="grid-item-body night">
           <div className="author-header clearfix">
             <a href={ this.props.repository.owner.html_url } target="_blank">
               <div className="author-img">

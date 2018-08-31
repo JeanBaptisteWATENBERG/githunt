@@ -11,6 +11,10 @@
   height: 270px;
 }
 
+.grid-item-body.night {
+  background: #1b2836;
+}
+
 .grid-item-container .author-details {
   margin-bottom: 20px;
 }
@@ -80,6 +84,12 @@
   color: #6e7583;
 }
 
+.grid-item-container .night .repo-body p {
+  font-size: 14px;
+  margin-bottom: 0;
+  color: #FFF;
+}
+
 .grid-item-container .repo-footer {
   font-size: 12px;
   position: absolute;
@@ -90,10 +100,22 @@
   padding: 10px;
 }
 
+.grid-item-container .night .repo-footer {
+  background: transparent;
+}
+
 .grid-item-container .repo-footer a {
   text-decoration: none;
   color: #6c757d;
   font-weight: 500;
+}
+
+.grid-item-container .night .repo-footer {
+  color: #fff;
+}
+
+.grid-item-container .night .repo-footer a {
+  color: #fff;
 }
 
 .grid-item-container .repo-footer a svg {

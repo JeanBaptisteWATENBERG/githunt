@@ -13,7 +13,7 @@ class TopNav extends React.Component {
       window.chrome.runtime.id;
 
     return (
-      <div className='top-nav'>
+      <div className='top-nav night'>
         <div className="container clearfix">
           <a href='https://github.com/kamranahmedse/githunt'
              rel="noopener noreferrer"

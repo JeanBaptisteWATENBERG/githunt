@@ -4,6 +4,10 @@ body {
   min-height: 100vh;
 }
 
+body.night {
+  background: #141d26;
+}
+
 a {
   color: #1157ed;
 }

@@ -47,7 +47,7 @@ class GroupHeading extends React.Component {
 
   render() {
     return (
-      <div className="group-heading">
+      <div className="group-heading night">
         <h4>
           <span className="text-capitalizes">{ this.getTitle() }</span>
           <span className="small text-muted ml-2">
